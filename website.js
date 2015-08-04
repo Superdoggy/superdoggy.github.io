@@ -20,5 +20,5 @@ var background = function() {
   ctx.fillRect(0, 0, w, h);
 }
 var website = function() {
-  setTimeout(background(), 16);
+  setInterval(background(), 16);
 }
