@@ -1,3 +1,5 @@
 # superdoggy.github.io
 
-Nothing to read yet. xD
+My personal website. Made completely with canvas. xD
+
+Why not? :P
