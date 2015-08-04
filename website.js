@@ -13,7 +13,7 @@ window.addEventListener('load', function() {
 });
 var background = function() {
   w = window.innerWidth;
-  h = window.innerHeight;
+  h = window.innerHeight + 5;
   cvs.width = w;
   cvs.height = h;
   ctx.fillStyle = "#000";
