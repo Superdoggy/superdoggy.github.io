@@ -3,11 +3,11 @@ var ctx;
 var w;
 var h;
 window.addEventListener('load', function() {
-  var canvas = document.getElementById('website');
-  context = canvas.getContext && canvas.getContext('2d');
-  if(context) {
-    cvs = canvas;
-    ctx = context;
+  var canvas_ = document.getElementById('website');
+  var context_ = canvas_.getContext && canvas_.getContext('2d');
+  if(context_) {
+    cvs = canvas_;
+    ctx = context_;
     website();
   }
 });
