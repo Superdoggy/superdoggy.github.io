@@ -18,8 +18,7 @@ var background = function() {
   cvs.height = h;
   ctx.fillStyle = "#000";
   ctx.fillRect(0, 0, w, h);
-  window.alert(w, h);
 }
 var website = function() {
-  setInterval(background(), 1000);
+  setInterval(background, 1000);
 }
