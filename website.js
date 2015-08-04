@@ -10,6 +10,6 @@ var website = function(cvs, ctx) {
   var h = screen.height
   cvs.width = w;
   cvs.height = h;
-  cts.fillStyle = "#000";
-  cts.fillRect(0, 0, w, h);
+  ctx.fillStyle = "#000";
+  ctx.fillRect(0, 0, w, h);
 }
