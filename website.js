@@ -6,8 +6,8 @@ window.addEventListener('load', function() {
   }
 });
 var website = function(cvs, ctx) {
-  var w = screen.width;
-  var h = screen.height
+  var w = window.width;
+  var h = window.height
   cvs.width = w;
   cvs.height = h;
   ctx.fillStyle = "#000";
